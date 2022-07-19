@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="142.0" prefWidth="472.0" style="-fx-background-color: snow;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="29.0" layoutY="44.0" prefWidth="150.0" promptText="Select attriupute" style="-fx-background-color: SKYBLUE;" />
+      <TextField layoutX="196.0" layoutY="44.0" />
+      <Button layoutX="346.0" layoutY="88.0" mnemonicParsing="false" style="-fx-border-color: SLATEBLUE; -fx-background-color: snow;" text="Ubdate" />
+      <Button layoutX="430.0" layoutY="7.0" mnemonicParsing="false" style="-fx-border-color: SLATEBLUE; -fx-background-color: snow;" text="X" />
+   </children>
+</AnchorPane>

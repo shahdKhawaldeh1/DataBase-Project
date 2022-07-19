@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="830.0" style="-fx-background-color: snow;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="316.0" layoutY="53.0" prefHeight="43.0" prefWidth="150.0" text="Payment" textAlignment="CENTER">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="35.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8947368264198303" green="0.02982456050813198" blue="0.02982456050813198" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.621052622795105" green="0.2369200736284256" blue="0.2369200736284256" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="14.0" layoutY="26.0" text="Al Shawa">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.29166668089050235" startY="0.36363637808597454">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.40392157435417175" green="0.3921568691730499" blue="0.6117647290229797" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8941176533699036" green="0.45490196347236633" blue="0.45490196347236633" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TableView layoutX="175.0" layoutY="150.0" prefHeight="374.0" prefWidth="409.0" style="-fx-background-color: GHOSTWHITE; -fx-border-color: BLACK;">
+         <columns>
+            <TableColumn prefWidth="67.99993896484375" text="ID" />
+            <TableColumn prefWidth="81.59999084472656" text="Student ID" />
+            <TableColumn prefWidth="87.20001220703125" text="Amount" />
+            <TableColumn prefWidth="92.79998779296875" text="Date" />
+            <TableColumn prefWidth="75.0" text="Remaning" />
+         </columns>
+      </TableView>
+      <TextField layoutX="657.0" layoutY="125.0" />
+      <ImageView fitHeight="30.0" fitWidth="52.0" layoutX="614.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/search_icon_125165.png" />
+         </image>
+      </ImageView>
+      <ImageView id="Delete" fitHeight="27.0" fitWidth="71.0" layoutX="37.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/مهملات.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="73.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="116.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/2521826.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
